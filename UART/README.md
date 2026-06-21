@@ -1,4 +1,4 @@
-# UART Protocol Implementation (Verilog)
+# UART Protocol Implementation (Verilog and SystemVerilog)
 
 ## Overview
 This project implements a complete **UART (Universal Asynchronous Receiver Transmitter)** communication system in Verilog, including:
@@ -44,7 +44,7 @@ clk_per_bit = Clock Frequency / Baud Rate
 UART/
 │── uart_tx.v
 │── uart_rx.v
-│── uart_tb.v
+│── uart_tb.sv
 │── README.md
 ```
 
@@ -196,7 +196,7 @@ TRANSMISSION SUCCESSFULL: RECEIVED BIT = 63 SENT BIT = 63
 3. Add:
    - `uart_tx.v`
    - `uart_rx.v`
-   - `uart_tb.v`
+   - `uart_tb.sv`
 4. Set `uart_tb` as top module
 5. Run simulation
 
