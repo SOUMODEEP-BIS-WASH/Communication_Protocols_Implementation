@@ -42,10 +42,10 @@ Key features:
 
 ```bash
 I2C/
-│── i2c_master.v
-│── i2c_slave.v
-│── i2c_slave2.v
-│── i2c_tb.v
+│── i2c_master.sv
+│── i2c_slave.sv
+│── i2c_slave2.sv
+│── i2c_tb.sv
 │── README.md
 ```
 
