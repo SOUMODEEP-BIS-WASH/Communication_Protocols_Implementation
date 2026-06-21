@@ -1,4 +1,4 @@
-# SPI Protocol Implementation (Verilog)
+# SPI Protocol Implementation (Verilog and SystemVerilog)
 
 ## Overview
 This project implements a complete **SPI (Serial Peripheral Interface)** communication system in Verilog, including:
