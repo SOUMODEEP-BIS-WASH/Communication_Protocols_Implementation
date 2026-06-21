@@ -42,9 +42,9 @@ SPI is a synchronous serial communication protocol commonly used for communicati
 
 ```bash
 SPI/
-│── SPI_MASTER.v
-│── spi_slave.v
-│── spi_tb.v
+│── SPI_MASTER.sv
+│── spi_slave.sv
+│── spi_tb.sv
 │── README.md
 ```
 
@@ -240,9 +240,9 @@ Thus communication occurs between:
 1. Open Vivado
 2. Create RTL project
 3. Add:
-   - `SPI_MASTER.v`
-   - `spi_slave.v`
-   - `spi_tb.v`
+   - `SPI_MASTER.sv`
+   - `spi_slave.sv`
+   - `spi_tb.sv`
 4. Set `spi_tb` as top module
 5. Run simulation
 
